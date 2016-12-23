@@ -12,9 +12,18 @@ namespace WCFCORS
     [ServiceContract]
     public interface IService1
     {
-
+        //[OperationContract]
+        //[WebInvoke(Method = "OPTIONS", UriTemplate = "*")]
+        //void HandleOPTIONS();
         [OperationContract]
+        [WebGet]
         string GetData(int value);
+        [OperationContract]
+        [WebGet(ResponseFormat = WebMessageFormat.Json)]
+        string GetJsonData(int value);
+        [OperationContract]
+        [WebInvoke(Method = "POST",RequestFormat =WebMessageFormat.Json,ResponseFormat =WebMessageFormat.Json,UriTemplate = "{name}")]
+        string PostSaveData(string name);
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
