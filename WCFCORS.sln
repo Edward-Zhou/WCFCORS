@@ -11,6 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPICORS", "WebAPICORS\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFConApp", "WCFConApp\WCFConApp.csproj", "{FDFCDB99-BED7-4CD0-ADAD-84BAB5FA4FE8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A82FAF0C-50CE-4297-8232-BD30A2D5D5CF}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\v-tazho\Desktop\Description of CORS.pptx = C:\Users\v-tazho\Desktop\Description of CORS.pptx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
